@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Birret de l'Estany - Event Oficial</title>
+    <meta name="description" content="El Birret de l'Estany - Un esdeveniment únic que no et pots perdre">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-animation">
+                <img src="assets/El-Birret_e1_transparent.png" alt="Birret" class="loading-image frame-1" id="frame1">
+                <img src="assets/Birret-2a-ed-Color.png" alt="El Birret" class="loading-image frame-2" id="frame2">
+            </div>
+            <div class="loading-text">
+                <h2>Carregant El Birret de l'Estany...</h2>
+                <div class="loading-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/El-Birret_e1_transparent.png" alt="El Birret de l'Estany" class="logo">
+                <h2>El Birret de l'Estany</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Inici</a>
+                <a href="#about" class="nav-link">Sobre l'esdeveniment</a>
+                <a href="#location" class="nav-link">Ubicació</a>
+                <a href="#tickets" class="nav-link">Entrades</a>
+                <a href="#contact" class="nav-link">Contacte</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">EL BIRRET DE L'ESTANY</h1>
+                <p class="hero-subtitle">Correbars per Banyoles - La millor nit de l'any</p>
+                <p class="hero-date">17 d'Octubre, 2025 - 18:30h</p>
+                <div class="hero-buttons">
+                    <a href="#tickets" class="btn btn-primary">Comprar Entrades</a>
+                    <a href="#about" class="btn btn-secondary">Descobrir Més</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/Birret-2a-ed-Color.png" alt="El Birret de l'Estany - Imatge principal de l'esdeveniment" class="hero-main-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre El Birret de l'Estany</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <div class="about-description">
+                        <p>L'associació banyolina El Birret de l'Estany presenta la <strong>2a edició del Correbars!</strong> 🍻</p>
+                        <p>Després de l'èxit de la primera edició del 2024, enguany tornem amb més força i amb novetats.</p>
+
+                        <p>🍺 Al llarg de la ruta recorrerem <strong>8 bars emblemàtics de Banyoles</strong>.</p>
+
+                        <p>👕Tots els participants rebran la <strong>nova samarreta oficial del Correbars</strong></p>
+
+                        <p>🍽️ <strong>Aperitius locals</strong> que complementaran perfectament les begudes!</p>
+
+                        <p>🎉 I per arrodonir la festa, la nit acabarà a la zona de <strong>Barraques</strong></p>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="hero-image">
+                        <img src="assets/Birret-2a-ed-CARTELL.jpg" alt="El Birret de l'Estany - Imatge principal de l'esdeveniment" class="hero-main-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <div class="container">
+            <h2 class="section-title">Ubicació</h2>
+            <div class="location-grid">
+                <div class="location-info">
+                    <h3>Punt d'Inici del Correbars</h3>
+                    <div class="location-details">
+                        <div class="detail">
+                            <strong>Hora d'inici:</strong> 18:30h - Recollida de samarretes i tiquets
+                        </div>
+                    </div>
+                    <div style="margin-top: 1.5rem;">
+                        <a href="https://maps.app.goo.gl/BhN6bVvEdAuKGLx17" target="_blank" class="btn btn-primary">
+                            📍 Veure en Google Maps
+                        </a>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d221.79280392514198!2d2.7656055492927436!3d42.117032497349435!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bac21b04334637%3A0xf2de8713981bafb1!2sCafeteria%20Espai!5e0!3m2!1sca!2ses!4v1758309509412!5m2!1sca!2ses"
+                        width="100%" 
+                        height="300" 
+                        style="border:0; border-radius: 10px;" 
+                        allowfullscreen="" 
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tickets Section -->
+    <section id="tickets" class="tickets">
+        <div class="container">
+            <h2 class="section-title">Entrades</h2>
+            <div class="tickets-single">
+                <div class="ticket-card-single">
+                    <div class="ticket-header">
+                        <div class="ticket-badge">ENTRADA OFICIAL</div>
+                        <h3>El Birret de l'Estany</h3>
+                        <p class="ticket-subtitle">Accés complet a l'esdeveniment</p>
+                    </div>
+                    
+                    <div class="ticket-content">
+                        <div class="price-section">
+                            <div class="price">26€</div>
+                            <p class="price-note">Per persona</p>
+                        </div>
+                        
+                        <div class="ticket-features">
+                            <div class="feature-item">
+                                <span class="feature-icon">👕</span>
+                                <span>Samarreta oficial El Birret de l'Estany 2a edició</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">🍽️</span>
+                                <span>Sopar</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">🍻</span>
+                                <span>8 cerveses</span>
+                            </div>
+                             <div class="feature-item">
+                                <span class="feature-icon">🍴</span>
+                                <span>Aperitius</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="ticket-footer">
+                        <div class="ticket-info">
+                            <p><strong>Vàlid per:</strong> 17 Octubre 2025</p>
+                        </div>
+                        <button class="btn btn-primary btn-large">
+                            <span>Comprar Entrada</span>
+                            <span class="btn-arrow">→</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="ticket-benefits">
+                    <h4>Què inclou la teva entrada?</h4>
+                    <div class="benefits-grid">
+                        <div class="benefit">
+                            <h5>👕 Samarreta oficial</h5>
+                            <p>Samarreta amb diseny únic commemoratiu de l'esdeveniment, fet sense IA </p>
+                        </div>
+                        <div class="benefit">
+                            <h5>🍽️ Sopar inclòs</h5>
+                            <p>A l'inici del correbars es farà entrega del tiquet per sopar</p>
+                        </div>
+                        <div class="benefit">
+                            <h5>🍻 8 Cerveses</h5>
+                            <p>Es servirà una cervesa a cada parada del correbars</p>
+                        </div>
+                        <div class="benefit">
+                            <h5>🍴 Aperitius</h5>
+                            <p>Aperitius variats durant el recorregut</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacte</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Informació de Contacte</h3>
+                    <div class="contact-item">
+                        <strong>Email:</strong> birretestany@gmail.com
+                    </div>
+                    <div class="contact-item">
+                        <strong>Xarxes socials:</strong>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/birretestany/" class="social-link">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Envia'ns un missatge</h3>
+                    <form id="contact-form">
+                        <input type="text" name="nom" placeholder="Nom" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <textarea name="missatge" placeholder="Missatge" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>El Birret de l'Estany</h3>
+                    <p>Un esdeveniment organitzat des de Banyoles i per Banyoles.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enllaços</h4>
+                    <a href="#about">Sobre l'event</a>
+                    <a href="#program">Programa</a>
+                    <a href="#tickets">Entrades</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Segueix-nos</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/birretestany/">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 El Birret de l'Estany. Tots els drets reservats.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
